@@ -5,8 +5,8 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - GOOGLE_API_KEY=AIzaSyCk2lRDGfVe3z5k-AoQHNsBfri6EeX3QCk
-      - GROQ_API_KEY=gsk_ByUgqY8ZTOTtomykXMj2WGdyb3FYwMSwpLqCfM5T7mfHgWBnzFj6y
+      - GOOGLE_API_KEY=
+      - GROQ_API_KEY=gsk_
     volumes:
       - ./backend:/app
     command: flask run --host=0.0.0.0 --port=5000 --reload
