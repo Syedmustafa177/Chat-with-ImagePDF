@@ -115,6 +115,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+https://www.linkedin.com/in/syedmustafa177/
 
-Project Link: [https://github.com/yourusername/document-ai-chat](https://github.com/yourusername/document-ai-chat)
+Project Link: (https://github.com/Syedmustafa177/Chat-with-ImagePDF)
