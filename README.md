@@ -1,4 +1,4 @@
-# Chat-with-ImagePDF-
+# Chat-with-ImagePDF
 
 Document AI Chat is an advanced document interaction platform that allows users to upload PDF documents and images, process them using AI, and engage in intelligent conversations about the content. This project combines a React frontend with a Flask backend, leveraging state-of-the-art AI models to provide insightful answers to user queries about both textual and visual content.
 
