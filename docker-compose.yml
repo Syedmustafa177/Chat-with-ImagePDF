@@ -1,0 +1,23 @@
+version: '3'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - GOOGLE_API_KEY=AIzaSyCk2lRDGfVe3z5k-AoQHNsBfri6EeX3QCk
+      - GROQ_API_KEY=gsk_ByUgqY8ZTOTtomykXMj2WGdyb3FYwMSwpLqCfM5T7mfHgWBnzFj6y
+    volumes:
+      - ./backend:/app
+    command: flask run --host=0.0.0.0 --port=5000 --reload
+  frontend:
+    build: ./my-chatwithpdf
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./my-chatwithpdf:/app
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    depends_on:
+      - backend
